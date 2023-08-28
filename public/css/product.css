@@ -1,0 +1,48 @@
+.product-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+}
+
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+}
+
+button {
+    font: inherit;
+    border: 1px solid #6200ff;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    color: #6200ff;
+}
+
+button:hover,
+button:active {
+    background: #6200ff;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+}
+
+.buttondiv {
+    float: left;
+}
